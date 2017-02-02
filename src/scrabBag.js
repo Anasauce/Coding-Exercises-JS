@@ -1,8 +1,7 @@
-const readlineSync = require('readline-sync')
-const { scrabBag } = require('./tiles')
+'use strict'
 
-const whatsLeftInScrabBag = tilesUsed => {
-
+const scrabBag = () => {
+  console.log('HIIIII')
 }
 
-console.log(scrabBag)
+export { scrabBag } 
