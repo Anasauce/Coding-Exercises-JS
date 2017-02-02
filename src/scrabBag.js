@@ -4,4 +4,4 @@ const scrabBag = () => {
   console.log('HIIIII')
 }
 
-export { scrabBag }
+export { scrabBag } 
