@@ -6,7 +6,7 @@ const index = readlineSync.question(`pick a number between 1 and ${newCollection
 
 const stringIndices = ( newCollection, index ) => {
   return index > newCollection.length || index <= 0
-  ? ' '
+  ? ''
   : newCollection[index - 1]
 }
 
